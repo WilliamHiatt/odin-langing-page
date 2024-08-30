@@ -1,0 +1,142 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.header {
+    display: flex;
+    background-color: #1F2937;
+    justify-content: space-between; 
+    align-items: center;
+    padding: 0 175px;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    gap: 15px;
+    color: #E5E7EB;
+    padding: 0;
+    margin: 0;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.section-one {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 175px;
+    padding-right: 175px;
+    padding-bottom: 125px;
+    padding-top: 75px;
+    background-color: #1F2937;
+    color: #E5E7EB;
+    align-items: center;
+    min-height: 250px;
+}
+
+.section-one h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    margin: 0px;
+    padding: 0px;
+}
+
+.section-one p {
+    font: 18px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.section-one-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 5px;
+    width: 400px;
+    height: 225px;
+}
+
+.section-two {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.containers {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.container {
+    text-align: center;
+    width: 100px;
+}
+
+.section-three {
+    background-color: #E5E7EB;
+    padding: 50px 195px;
+}
+
+.section-three p {
+    font-size: 36px;
+    font-family: 'light italic';
+    color: #1F2937;
+}
+
+.section-three h5 {
+    font-size: 24px;
+    text-align: right;
+}
+
+.section-four {
+    padding: 50px 100px;
+}
+
+.nested-div {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #3882F6;
+    align-items: center;
+    padding: 25px 50px;
+}
+
+.call-to-action-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.nested-div button {
+    border-color: #F9FAF8; 
+}
+
+button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    width: 100px;
+    height: 30px;
+    font-family: 'Roboto';
+    border-radius: 10px;
+    border-color: white;
+}
+
+.footer {
+    background-color: #1F2937;
+    text-align: center;
+    color: #F9FAF8;
+}
+
+.text-items {
+    font-family: 'Roboto';
+}
