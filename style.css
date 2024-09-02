@@ -63,19 +63,25 @@ ul {
     padding: 0px;
     gap: 5px;
     width: 400px;
-    height: 225px;
+    min-height: 225px;
 }
 
 .section-two {
     display: flex;
     flex-direction: column;
     text-align: center;
+    padding-bottom: 70px;
 }
 
 .containers {
     display: flex;
     justify-content: center;
-    gap: 15px;
+    gap: 40px;
+    font-size: 12px;
+}
+
+.containers img {
+    border-radius: 10px;
 }
 
 .container {
@@ -90,8 +96,9 @@ ul {
 
 .section-three p {
     font-size: 36px;
-    font-family: 'light italic';
+    font-family: 'Roboto', sans-serif;
     color: #1F2937;
+    font-style: italic;
 }
 
 .section-three h5 {
@@ -109,12 +116,27 @@ ul {
     background-color: #3882F6;
     align-items: center;
     padding: 25px 50px;
+    border-radius: 10px;
 }
 
 .call-to-action-text {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
+    gap: 5px;
+    color: #E5E7EB;
+}
+
+.call-to-action-text h5 {
+    padding: 0px;
+    margin: 0px;
+    font-size: 16px;
+}
+
+.call-to-action-text p {
+    padding: 0px;
+    margin: 0px;
+    font-size: 12px;
 }
 
 .nested-div button {
@@ -126,8 +148,14 @@ button {
     color: #F9FAF8;
     width: 100px;
     height: 30px;
-    font-family: 'Roboto';
-    border-radius: 10px;
+    border-radius: 5px;
+}
+
+#button1 {
+    border-color: #3882F6;
+}
+
+#button2 {
     border-color: white;
 }
 

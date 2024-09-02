@@ -1,2 +1,3 @@
-# odin-langing-page
-Landing page project for The Odin Project
+Moon photo credit: Pixabay
+
+Landscape photo credit: Pixabay
